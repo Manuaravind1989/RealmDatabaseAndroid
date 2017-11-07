@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+   android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textbox"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/ageTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/textbox"
+        android:inputType="number"
+        android:hint="Age" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/phoneTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/textbox"
+        android:inputType="number"
+        android:hint="Phone" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/placeTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/textbox"
+        android:inputType="textPersonName"
+        android:hint="Place" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/textbox"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+
+    <Button
+        android:layout_marginTop="26dp"
+        android:id="@+id/submitButton"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Submit" />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/deleteButton"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Delete" />
+</LinearLayout>
