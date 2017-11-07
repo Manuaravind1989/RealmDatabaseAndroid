@@ -62,6 +62,7 @@ public class AddActivity extends AppCompatActivity implements View.OnClickListen
             phoneTV.setText(phoneStr);
             placeTV.setText(placeStr);
             emailTV.setText(emailStr);
+            deleteButton.setVisibility(View.VISIBLE);
         }
 
 
@@ -123,6 +124,7 @@ public class AddActivity extends AppCompatActivity implements View.OnClickListen
             }
         } else if (v.getId() == R.id.deleteButton) {
             mRealmHelper.deleteUserInfo(idStr);
+            finish();
         }
     }
 }
