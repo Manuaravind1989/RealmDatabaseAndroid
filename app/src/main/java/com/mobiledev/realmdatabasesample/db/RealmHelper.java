@@ -15,7 +15,7 @@ import io.realm.RealmResults;
 
 public class RealmHelper {
 
-    public static final String DB_NAME = "myRealm.realm";
+    public static final String DB_NAME = "myDatabase.realm";
     private Realm mRealm;
 
     public RealmHelper(Context context) {
